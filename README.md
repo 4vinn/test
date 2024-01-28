@@ -7,12 +7,13 @@
 
 ### How to setup
 
-> Clone
-> npm create vite@latest
-> go to project directory
-> npm run dev
+- Clone
+- `npm create vite@latest`
+- go to project directory
+- `npm run dev`
 
 ### Other
 
 https://tictactoe-virajp4.vercel.app/
+
 https://github.com/virajp4/Tic-Tac-Toe-React
