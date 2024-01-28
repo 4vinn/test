@@ -17,3 +17,8 @@
 https://tictactoe-virajp4.vercel.app/
 
 https://github.com/virajp4/Tic-Tac-Toe-React
+
+#### Setup themes
+
+- https://dev.to/franklin030601/using-dark-mode-in-your-react-app-5364
+- https://betterprogramming.pub/a-complete-guide-to-implementing-dark-mode-in-react-47af893b22eb 
