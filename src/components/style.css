@@ -1,0 +1,85 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  color: #ffffffe3;
+}
+
+#game-board {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+}
+.board-col {
+  padding-left: 0px;
+}
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+.result {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  color: rgb(212, 88, 56);
+  margin-top: 10px;
+}
+
+.card {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+button {
+  font-size: 1.5em;
+  /* margin-top: 10px; */
+  padding: 10px;
+  color: #ffffff;
+  width: 93%;
+  height: 93%;
+
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #fffffffd;
+  cursor: pointer;
+}
+button:hover {
+  background-color: transparent;
+  transition: 0.2s;
+}
+button:disabled {
+  background-color: transparent;
+  cursor: not-allowed;
+}
+
+.reset {
+  font-size: 1em;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
+.reset:hover {
+  background-color: #ff6200;
+}
