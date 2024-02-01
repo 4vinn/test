@@ -114,6 +114,11 @@ export const findBestMove = (board) => {
     for (let j = 0; j < 3; j++) {
       if (!board[i][j]) {
         board[i][j] = "O";
+        //Return the move immediately if it results in winning condition; no need to explore recursively further
+        if (calculateWinner(board) === "O") {
+          board[i][j] = null;
+          return { "row": i, "col": j };
+        }
         const moveVal = minimax(board, 0, false);
         board[i][j] = null;
 
