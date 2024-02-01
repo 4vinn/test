@@ -20,6 +20,8 @@ const TicTacToe = () => {
   }, [board, isPlayerX]);
 
   const makeMove = (row, col) => {
+    if (row == col && row == -1)
+      return;
     if (board[row][col] || winner) {
       return;
     }
